@@ -1,0 +1,125 @@
+body{
+    font-family: "Roboto", "Arial", sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+  background-image: url(../img/watches.jpg);
+  background-position: 142% 99%;
+  background-repeat: no-repeat;
+  background-size: 700px;
+
+}
+
+@media (max-width: 1230px) {
+    header{
+        background-size: 650px;
+        background-position: 148% 99%;
+    }
+    .sec__list{
+        .list{
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: center;
+        }
+    }
+    header{
+        .nav__container{
+            justify-content: center; // ???
+
+            .nav__logo{
+                padding-left: 50px;
+                margin-left: 0;
+            }
+        }
+    }
+}
+@media (max-width: 1120px) {
+    header{
+        background-size: 600px;
+        background-position: 150% 99%;
+
+        .nav__container{
+            .navigation__links{
+                margin-top: 17px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;             
+    
+                a{
+                    margin: 0 20px;
+                }
+                input{
+                    margin: 30px ;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1050px) {
+    header{
+        background-size: 550px;
+        background-position: 155% 99%;
+
+        .nav__container{
+            .nav__logo{
+                margin-left: 0;
+                padding-left: 150px;
+            }
+        }
+    }
+    .sec__list{
+        .content{
+            flex-direction: column;
+
+            .con__img{
+                width: 300px;
+                height: 500px;
+                padding-top: 40px;
+            }
+        }
+    }
+    .list{
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        justify-content: center;
+        .m_left{
+            margin-right: 10%;
+        }
+    }
+}
+@media (max-width: 940px) {
+    header{
+        background-size: 450px;
+        background-position: 140% 80%;
+    }
+}
+@media (max-width: 850px) {
+    header{
+        background-image: none;
+    }
+    footer{
+        .m_left{
+            margin-right: 20%;
+        }
+    }
+}
+@media (max-width: 700px) {
+    .navigation{
+        .nav__container{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+    footer{
+        justify-content: center;
+        .m_left{
+            margin-right: 47%;
+        }
+    }
+}

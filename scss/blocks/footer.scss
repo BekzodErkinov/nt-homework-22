@@ -1,0 +1,39 @@
+footer{
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/runners.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .m_left{
+      color: #fff;
+      margin-left: 53%;
+  
+      .footer__lead{
+        font-size: 35px;
+        width: 335px;
+      }
+      .footer__txt{
+        width: 418px;
+        font-size: 15px;
+        line-height: 1.7;
+        margin: 40px 0;
+        padding-left: 30px;
+        border-left: 2px solid #fff;
+      }
+      .footer__link{
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #ea625c;
+  
+        &:hover{
+          background-color: #e24f49;
+        }
+      }
+    }
+  }
